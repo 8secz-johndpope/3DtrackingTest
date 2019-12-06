@@ -29,7 +29,10 @@ class ViewController: UIViewController, ARSessionDelegate {
 	let hero: UIView = {
 		let heroView = UIView()
 		//heroView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-		heroView.backgroundColor = .darkGray
+		//heroView.backgroundColor = .darkGray
+        /*
+         Jing made change here
+         */
 		return heroView
 	}()
 
